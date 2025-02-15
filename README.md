@@ -16,14 +16,16 @@ The **Number Guessing Game** is a simple yet engaging game where players attempt
 3. The game provides feedback:
    - "Your guess is too high!"
    - "Your guess is too low"
-   - "Congratulations! You've guess is correct."
+   - "Congratulations! Your guess is correct."
    - "Your number was A "
    - "Total tries: X"
 
 ## 🏗 Technologies Used
-- **Python** (for logic and implementation)
+- **Python**
+- **C**
 
 ## 🔧 Installation & Setup
+### Python Version
 1. Ensure Python is installed on your system.
 2. Clone the repository:
    ```sh
@@ -36,6 +38,17 @@ The **Number Guessing Game** is a simple yet engaging game where players attempt
 4. Run the script:
    ```sh
    python number_guess.py
+   ```
+
+### C Version
+1. Ensure a C compiler (like GCC) is installed.
+2. Compile the C program:
+   ```sh
+   gcc number_guess.c -o number_guess
+   ```
+3. Run the compiled program:
+   ```sh
+   ./number_guess
    ```
 
 ## 📌 Future Enhancements
