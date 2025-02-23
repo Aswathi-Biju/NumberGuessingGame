@@ -37,14 +37,14 @@ The **Number Guessing Game** is a simple yet engaging game where players attempt
    ```
 4. Run the script:
    ```sh
-   python number_guess.py
+   python program.py
    ```
 
 ### C Version
 1. Ensure a C compiler (like GCC) is installed.
 2. Compile the C program:
    ```sh
-   gcc number_guess.c -o number_guess
+   gcc program.c -o number_guess
    ```
 3. Run the compiled program:
    ```sh
